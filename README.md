@@ -18,7 +18,7 @@ Below are selected visuals demonstrating the forecasting performance and evaluat
 - Evaluation of 4 models across 6 denominations using SMAPE as the main metric.
 - AI models (LSTM, TLNN, FNN) generally outperformed SARIMA at both national and regional levels.
 
-![SMAPE Error](media/evaluate-accuracy.PNG)
+![SMAPE Error](media/evaluate-accuracy.png)
 
 ---
 ### Forecasting Results – National Level
