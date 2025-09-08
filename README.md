@@ -1,8 +1,9 @@
-# AI-Driven Banknote Forecasting System — Central Bank of the Republic of Türkiye
+# AI-Driven Banknote Forecasting System
 
-This repository presents the development of the Central Bank of the Republic of Türkiye’s first AI-based forecasting system—a high-impact prototype trained and validated on real-world data across 48 models to predict national and regional banknote demand.
+## 🔍 Overview  
+Forecasting banknote demand is a critical challenge for central banks, since banknotes in circulation depend on many external and macroeconomic factors. Accurate forecasts are essential for monetary stability and efficient cash management.  
 
-This project encompasses a hybrid modeling approach combining machine learning (FNN, LSTM, TLNN) and time series analysis (SARIMA) to forecast banknote demand across six denominations and two geographic levels. The system achieved up to 99% accuracy (SMAPE) and supports strategic cash distribution planning.
+This system addresses the problem by combining 48 forecasting models with artificial intelligence (neural networks) and classical time series approaches. Developed at the Central Bank of the Republic of Türkiye, it was a high-impact prototype trained and validated on real-world national and regional data. The system achieved up to 99% accuracy (SMAPE), delivering strategic insights for more precise and efficient banknote allocation planning.
 
 ## Key Highlights
 - Developed 48 models covering national and regional levels.
@@ -21,6 +22,7 @@ Below are selected visuals demonstrating the forecasting performance and evaluat
 ![SMAPE Error](media/evaluate-accuracy.png)
 
 ---
+
 ### Forecasting Results – National Level
 #### Forecasting – National Level (200 TL)
 - Trained on historical demand data and projected 12 months ahead.
