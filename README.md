@@ -3,7 +3,47 @@
 ## 🔍 Overview  
 Forecasting banknote demand is a critical challenge for central banks, since banknotes in circulation depend on many external and macroeconomic factors. Accurate forecasts are essential for monetary stability and efficient cash management.  
 
-This system addresses the problem by combining 48 forecasting models with artificial intelligence (neural networks) and classical time series approaches. Developed at the Central Bank of the Republic of Türkiye, it was a high-impact prototype trained and validated on real-world national and regional data. The system achieved up to 99% accuracy (SMAPE), delivering strategic insights for more precise and efficient banknote allocation planning.
+This system addresses the problem by combining 48 forecasting models with artificial intelligence (neural networks) and classical time series approaches. Developed at the Central Bank of the Republic of Türkiye, it was a high-impact prototype trained and validated on real-world national and regional data. The system achieved up to 99% accuracy (SMAPE), delivering strategic insights for more precise and efficient banknote management planning.
+
+## ✨ Key Features
+
+**Implementation scope (48 models)**
+- Implemented neural networks (LSTM, MLP/FNN, TLNN) and SARIMA across six denominations (₺5…₺200) at both national and regional levels.  
+- This makes 48 models in total (4 model families × 6 denominations × 2 scales).
+- All evaluated under a consistent, leakage-safe protocol (shared train/validation/test splits with past-only windows).
+
+**Training & modeling safeguards**  
+- Neural networks: early stopping, loss monitoring, normalization, and systematic evaluation to improve generalization and prevent overfitting.  
+- Time series models: stationarity and seasonality checks, systematic model selection, and residual diagnostics to ensure robustness and validity.
+
+**Metrics & interpretability**  
+- **RMSE** to assess errors in real-world units (domain-level interpretability).  
+- **SMAPE** as the main reporting metric, also expressed as Accuracy = 100 − SMAPE for clear comparison and communication.
+
+**Transparent data policy**  
+- National datasets are public, enabling full end-to-end reproducibility.  
+- Regional datasets are restricted: raw series cannot be shared, only aggregated metrics and result figures are reported.  
+
+## 📊 Real-World Impact  
+
+**High accuracy & decision support**  
+- Achieved up to 99% forecasting accuracy (SMAPE).  
+- Delivered actionable insights to decision-makers, supporting strategic allocation on both national and regional scales.  
+
+**Longer-term banknote management planning**  
+- Produced 12-month forecasts with confidence intervals, helping decision-makers prepare for seasonal demand patterns in advance.  
+- Ongoing train/validation/test monitoring ensured reliable results, building confidence in forecasts used for cash management planning.  
+
+**Operational & policy relevance**  
+- Forecasts supported not only distribution planning (cash logistics) but also upstream needs such as banknote production, supply chain preparation, and long-term stock management.  
+- As circulation volume is a key driver of monetary liquidity, accurate demand forecasts provided critical input for broader monetary policy planning.
+
+**Simplicity with real-world impact**  
+- Delivered accurate forecasts using only the banknote demand series itself — without requiring additional macroeconomic or external variables.  
+- This makes the system easy to apply in practice: fast setup, no dependency on uncertain external forecasts, yet high accuracy in predicting future cash demand.  
+
+
+
 
 ## Key Highlights
 - Developed 48 models covering national and regional levels.
