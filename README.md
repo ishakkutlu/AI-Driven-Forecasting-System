@@ -13,16 +13,16 @@ This AI-driven forecasting system addresses the problem by combining 48 models (
   Evaluated under a consistent, leakage-safe protocol with train/validation/test splits using past-only windows.
 
 - **Training & modeling safeguards**  
-  **Neural networks:** early stopping, loss monitoring to prevent overfitting, and normalization for stable training.  
-  **Time series:** stationarity/seasonality checks, model selection, and residual diagnostics to ensure robustness and validity.  
+  Neural networks: early stopping, loss monitoring to prevent overfitting, and normalization for stable training.  
+  Time series: stationarity/seasonality checks, model selection, and residual diagnostics to ensure robustness and validity.  
 
 - **Metrics & interpretability**  
-  **RMSE** to assess errors in real-world units (domain-level interpretability).  
-  **SMAPE** as the main reporting metric, also expressed as Accuracy (100 − SMAPE) for clear comparison and communication.
+  RMSE to assess errors in real-world units (domain-level interpretability).  
+  SMAPE as the main reporting metric, also expressed as Accuracy (100 − SMAPE) for clear comparison and communication.
 
 - **Data policy**  
-  **National datasets** are public (full reproducibility).
-  **Regional datasets** restricted; only aggregated metrics and figures shared.
+  National datasets are public (full reproducibility).
+  Regional datasets restricted; only aggregated metrics and figures shared.
 
 ## 📊 Real-World Impact  
 
