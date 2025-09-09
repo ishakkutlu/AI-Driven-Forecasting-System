@@ -28,19 +28,19 @@ It achieved forecast accuracies ranging from **~65% to ~99%** (SMAPE), deliverin
 
 ## 📊 Real-World Impact  
 
-- **High accuracy & decision support**
+- **High accuracy & decision support**  
   Forecast accuracies ranged from ~65% to ~99% (SMAPE), delivering actionable insights for both national and regional allocation decisions.
 
-- **Simplicity with real-world impact**
-  Forecasts relied only on the banknote demand series itself — no external variables required.
+- **Simplicity with real-world impact**  
+  Forecasts relied only on the banknote demand series itself — no external variables required.  
   This made the system easy to set up and directly usable in practice, while still achieving high accuracy.
 
-- **Longer-term planning**
-  Produced 12-month forecasts with confidence intervals, helping decision-makers prepare for seasonal patterns.
+- **Longer-term planning**  
+  Produced 12-month forecasts with confidence intervals, helping decision-makers prepare for seasonal patterns.  
   Ongoing train/validation/test monitoring ensured reliability and strengthened confidence in forecasts used for cash management planning.
 
-- **Operational & policy relevance**
-  Supported not only cash logistics but also upstream needs such as banknote production, supply chain preparation, and long-term stock management.
+- **Operational & policy relevance**  
+  Supported not only cash logistics but also upstream needs such as banknote production, supply chain preparation, and long-term stock management.  
   As circulation volume drives monetary liquidity, forecasts offered critical input for monetary policy.  
 
 
