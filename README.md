@@ -1,28 +1,28 @@
 # AI-Driven Banknote Forecasting System
 
 ## 🔍 Overview  
-Forecasting banknote demand is a critical challenge for central banks, since banknotes in circulation depend on many external and macroeconomic factors. Accurate forecasts are essential for monetary stability and efficient cash management.  
 
-This system addresses the problem by combining 48 forecasting models with artificial intelligence (neural networks) and classical time series approaches. Developed at the Central Bank of the Republic of Türkiye, it was a high-impact prototype trained and validated on real-world national and regional data. The system achieved up to 99% accuracy (SMAPE), delivering strategic insights for more precise and efficient banknote management planning.
+Forecasting banknote demand is a critical challenge for central banks, since banknotes in circulation depend on many external and macroeconomic factors.  
+
+This AI-driven forecasting system addresses the problem by combining 48 models (neural networks + classical time series). Originally developed as a high-impact prototype at the Central Bank of the Republic of Türkiye, it was trained and validated on real-world national and regional data. It achieved forecast accuracies ranging from ~65% to ~99% (SMAPE), delivering strategic insights that supported monetary stability and efficient banknote management.  
 
 ## ✨ Key Features
 
-- **Implementation scope (48 models)**   
-  Implemented neural networks (LSTM, MLP/FNN, TLNN) and SARIMA across six denominations (₺5…₺200) at both national and regional levels.  
-  This makes 48 models in total (4 model families × 6 denominations × 2 scales).
-  All evaluated under a consistent, leakage-safe protocol (shared train/validation/test splits with past-only windows).
+- **Implementation scope (48 models)**
+  Machine learning (LSTM, MLP/FNN, TLNN) and time series (SARIMA) models; applied to six denominations (₺5…₺200) at national & regional scales (4 × 6 × 2 = 48).
+  Evaluated under a consistent, leakage-safe protocol with train/validation/test splits using past-only windows.
 
 - **Training & modeling safeguards**  
-  Neural networks: early stopping, loss monitoring, normalization, and systematic evaluation to improve generalization and prevent overfitting.  
-  Time series models: stationarity and seasonality checks, systematic model selection, and residual diagnostics to ensure robustness and validity.
+  **Neural networks:** early stopping, loss monitoring to prevent overfitting, and normalization for stable training.  
+  **Time series:** stationarity/seasonality checks, model selection, and residual diagnostics to ensure robustness and validity.  
 
 - **Metrics & interpretability**  
   **RMSE** to assess errors in real-world units (domain-level interpretability).  
-  **SMAPE** as the main reporting metric, also expressed as Accuracy = 100 − SMAPE for clear comparison and communication.
+  **SMAPE** as the main reporting metric, also expressed as Accuracy (100 − SMAPE) for clear comparison and communication.
 
-- **Transparent data policy**  
-  National datasets are public, enabling full end-to-end reproducibility.  
-  Regional datasets are restricted: raw series cannot be shared, only aggregated metrics and result figures are reported.  
+- **Data policy**
+  **National datasets** are public (full reproducibility).
+  **Regional datasets** restricted; only aggregated metrics and figures shared.
 
 ## 📊 Real-World Impact  
 
