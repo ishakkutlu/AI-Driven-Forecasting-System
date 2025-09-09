@@ -43,12 +43,9 @@ It achieved forecast accuracies ranging from **~65% to ~99%** (SMAPE), deliverin
   Supported not only cash logistics but also upstream needs such as banknote production, supply chain preparation, and long-term stock management.  
   As circulation volume drives monetary liquidity, forecasts offered critical input for monetary policy.  
 
-**Forecast accuracy across models, denominations, and scales.**  
-
-Neural networks consistently outperformed SARIMA, ensuring higher reliability across denominations and scales.
+**Neural networks consistently outperformed SARIMA, ensuring higher reliability across denominations and scales.**  
 
 ![SMAPE Error](media/evaluate-accuracy.png)
-
 
 
 
