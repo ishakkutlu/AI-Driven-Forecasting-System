@@ -8,6 +8,8 @@ This AI-driven forecasting system addresses the problem by combining **48 models
 
 It achieved forecast accuracies ranging from **~65% to ~99%** (SMAPE), delivering strategic insights that supported monetary stability and efficient banknote management.  
 
+---
+
 ## ✨ Key Features
 
 - **Implementation scope (48 models)**  
@@ -22,9 +24,7 @@ It achieved forecast accuracies ranging from **~65% to ~99%** (SMAPE), deliverin
   RMSE to assess errors in real-world units (domain-level interpretability).  
   SMAPE as the main reporting metric, also expressed as Accuracy (100 − SMAPE) for clear comparison and communication.
 
-- **Reproducibility**  
-  National-level datasets are public, ensuring end-to-end reproducibility.  
-  Regional datasets restricted; only aggregated metrics and figures shared.  
+---
 
 ## 📊 Real-World Impact  
 
@@ -47,37 +47,67 @@ It achieved forecast accuracies ranging from **~65% to ~99%** (SMAPE), deliverin
 
 ![SMAPE Error](media/evaluate-accuracy.png)  
 
+---
 
 ## 📂 Project Files & Notebooks  
 
 All notebooks are stored in the [`/notebooks`](./notebooks) folder.  
 They include **both source code and final outputs (forecasts, validation plots, diagnostics)** — no need to re-run to view results.  
 
-- **Artificial Neural Networks (ANNs)**  
+- **Artificial Neural Networks (ANNs)**
+  Per-denomination notebooks include forecasts and training/validation loss plots.  
   - National scale (₺5 … ₺200): 01–06_national_[denomination]_ann.ipynb  
   - Regional scale (₺5 … ₺200): 07–12_regional_[denomination]_ann.ipynb  
 
-- **SARIMA (classical time series)**  
+- **SARIMA (classical time series)**
+  Per-scale notebooks include forecasts for all denominations and residual diagnostics.
   - 13_national_all_sarima.ipynb (all denominations, national scale)  
   - 14_regional_all_sarima.ipynb (all denominations, regional scale)  
 
-👉 ANN notebooks (per denomination) include forecasts and training/validation loss plots.  
-👉 SARIMA notebooks (per scale) include forecasts for all denominations and residual diagnostics.  
+---
 
+## ⚙️ Tools & Environment  
 
+- **Language:** Python (tested with 3.7+)  
+- **Core libraries:** TensorFlow, Keras, Pandas, NumPy, Scikit-learn  
+- **Time series:** Statsmodels, pmdarima  
+- **Visualization:** Matplotlib  
+- **Environment:** Jupyter Notebook  
 
+---
 
+## 📦 Reproduction Guide  
+
+All notebooks can be opened directly on Kaggle — no local setup required. They run in Kaggle’s hosted Python environment.
+
+Open the Kaggle notebooks (links provided below).  
+- National-level notebooks are fully reproducible with public datasets.
+- Regional-level notebooks are limited to aggregated outputs and metrics (raw data not included).
+
+### 🔗 Kaggle Notebooks  
+
+- **Artificial Neural Networks (per denomination)** 
+  - National scale (₺5 … ₺200): [200₺](link) · [100₺](link) · [50₺](link) · [20₺](link) · [10₺](link) · [5₺](link)  
+  - Regional scale (₺5 … ₺200): [200₺](link) · [100₺](link) · [50₺](link) · [20₺](link) · [10₺](link) · [5₺](link)  
+
+- **SARIMA (per scale)**  
+  - National scale: [all denominations](link)  
+  - Regional scale: [all denominations](link)  
+
+---
+
+## 🛡️ Disclaimer  
+
+- The notebooks are **anonymized, demonstration-ready versions** prepared for portfolio purposes.  
+- **No confidential or sensitive data are included.**  
+  - National-level datasets are public.  
+  - Regional-level datasets are not shared.  
 
  
 
 
 
 
-
-
-
-
-Utilized Python, TensorFlow, Keras, Pandas, NumPy, Scikit-learn, Pmdarima, Statsmodels, Matplotlib.
 
 ## Visual Results
 Below are selected visuals demonstrating the forecasting performance and evaluation results of the AI-based system across different models, denominations, and regions.
