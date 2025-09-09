@@ -20,7 +20,7 @@ This AI-driven forecasting system addresses the problem by combining 48 models (
   **RMSE** to assess errors in real-world units (domain-level interpretability).  
   **SMAPE** as the main reporting metric, also expressed as Accuracy (100 − SMAPE) for clear comparison and communication.
 
-- **Data policy**
+- **Data policy**  
   **National datasets** are public (full reproducibility).
   **Regional datasets** restricted; only aggregated metrics and figures shared.
 
