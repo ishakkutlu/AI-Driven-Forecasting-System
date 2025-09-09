@@ -12,7 +12,7 @@ It achieved forecast accuracies ranging from **~65% to ~99%** (SMAPE), deliverin
 
 - **Implementation scope (48 models)**  
   Machine learning (LSTM, MLP/FNN, TLNN) and time series (SARIMA) models; applied to six denominations (₺5…₺200) at national & regional scales (4 × 6 × 2 = 48).
-  Evaluated under a consistent, leakage-safe protocol with train/validation/test splits using past-only windows.
+  All models evaluated under a consistent, leakage-safe protocol with train/validation/test splits using past-only windows.
 
 - **Training & modeling safeguards**  
   Neural networks: early stopping, loss monitoring to prevent overfitting, and normalization for stable training.  
@@ -22,8 +22,8 @@ It achieved forecast accuracies ranging from **~65% to ~99%** (SMAPE), deliverin
   RMSE to assess errors in real-world units (domain-level interpretability).  
   SMAPE as the main reporting metric, also expressed as Accuracy (100 − SMAPE) for clear comparison and communication.
 
-- **Data policy**  
-  National datasets are public (full reproducibility).
+- **Reproducibility**  
+  National-level datasets are public, ensuring end-to-end reproducibility. 
   Regional datasets restricted; only aggregated metrics and figures shared.
 
 ## 📊 Real-World Impact  
@@ -42,6 +42,12 @@ It achieved forecast accuracies ranging from **~65% to ~99%** (SMAPE), deliverin
 - **Operational & policy relevance**  
   Supported not only cash logistics but also upstream needs such as banknote production, supply chain preparation, and long-term stock management.  
   As circulation volume drives monetary liquidity, forecasts offered critical input for monetary policy.  
+
+**Figure — Forecast accuracy across models, denominations, and scales.**  
+
+Performance ranged from ~65% to ~99% (SMAPE). Neural networks consistently outperformed SARIMA, with higher reliability across both national and regional datasets.  
+
+![SMAPE Error](media/evaluate-accuracy.png)
 
 
 
