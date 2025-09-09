@@ -23,8 +23,8 @@ It achieved forecast accuracies ranging from **~65% to ~99%** (SMAPE), deliverin
   SMAPE as the main reporting metric, also expressed as Accuracy (100 − SMAPE) for clear comparison and communication.
 
 - **Reproducibility**  
-  National-level datasets are public, ensuring end-to-end reproducibility. 
-  Regional datasets restricted; only aggregated metrics and figures shared.
+  National-level datasets are public, ensuring end-to-end reproducibility.  
+  Regional datasets restricted; only aggregated metrics and figures shared.  
 
 ## 📊 Real-World Impact  
 
