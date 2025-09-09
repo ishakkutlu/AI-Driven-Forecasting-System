@@ -28,33 +28,25 @@ It achieved forecast accuracies ranging from **~65% to ~99%** (SMAPE), deliverin
 
 ## 📊 Real-World Impact  
 
-**High accuracy & decision support**  
-- Achieved up to 99% forecasting accuracy (SMAPE).  
-- Delivered actionable insights to decision-makers, supporting strategic allocation on both national and regional scales.  
+- **High accuracy & decision support**
+  Forecast accuracies ranged from ~65% to ~99% (SMAPE), delivering actionable insights for both national and regional allocation decisions.
 
-**Simplicity with real-world impact**  
-- Delivered accurate forecasts using only the banknote demand series itself — without requiring additional macroeconomic or external variables.  
-- This simplicity makes the system easy to apply in practice: fast setup, directly usable in real-world planning without complex data integration, yet high accuracy in predicting future cash demand.
+- **Simplicity with real-world impact**
+  Forecasts relied only on the banknote demand series itself — no external variables required.
+  This made the system easy to set up and directly usable in practice, while still achieving high accuracy.
 
-**Longer-term banknote management planning**  
-- Produced 12-month forecasts with confidence intervals, helping decision-makers prepare for seasonal demand patterns in advance.  
-- Ongoing train/validation/test monitoring ensured reliable results, building confidence in forecasts used for cash management planning.  
+- **Longer-term planning**
+  Produced 12-month forecasts with confidence intervals, helping decision-makers prepare for seasonal patterns.
+  Ongoing train/validation/test monitoring ensured reliability and strengthened confidence in forecasts used for cash management planning.
 
-**Operational & policy relevance**  
-- Forecasts supported not only distribution planning (cash logistics) but also upstream needs such as banknote production, supply chain preparation, and long-term stock management.  
-- As circulation volume is a key driver of monetary liquidity, accurate demand forecasts provided critical input for broader monetary policy planning.
-
+- **Operational & policy relevance**
+  Supported not only cash logistics but also upstream needs such as banknote production, supply chain preparation, and long-term stock management.
+  As circulation volume drives monetary liquidity, forecasts offered critical input for monetary policy.  
 
 
 
 
-
-## Key Highlights
-- Developed 48 models covering national and regional levels.
-- Achieved up to 99% accuracy using SMAPE metric.
-- Implemented early stopping, loss monitoring, and data normalization.
-- Conducted comparative analysis between AI models and SARIMA.
-- Utilized Python, TensorFlow, Keras, Pandas, NumPy, Scikit-learn, Pmdarima, Statsmodels, Matplotlib.
+Utilized Python, TensorFlow, Keras, Pandas, NumPy, Scikit-learn, Pmdarima, Statsmodels, Matplotlib.
 
 ## Visual Results
 Below are selected visuals demonstrating the forecasting performance and evaluation results of the AI-based system across different models, denominations, and regions.
