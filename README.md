@@ -7,22 +7,22 @@ This system addresses the problem by combining 48 forecasting models with artifi
 
 ## ✨ Key Features
 
-**Implementation scope (48 models)**
-- Implemented neural networks (LSTM, MLP/FNN, TLNN) and SARIMA across six denominations (₺5…₺200) at both national and regional levels.  
-- This makes 48 models in total (4 model families × 6 denominations × 2 scales).
-- All evaluated under a consistent, leakage-safe protocol (shared train/validation/test splits with past-only windows).
+- **Implementation scope (48 models)**   
+  Implemented neural networks (LSTM, MLP/FNN, TLNN) and SARIMA across six denominations (₺5…₺200) at both national and regional levels.  
+  This makes 48 models in total (4 model families × 6 denominations × 2 scales).
+  All evaluated under a consistent, leakage-safe protocol (shared train/validation/test splits with past-only windows).
 
-**Training & modeling safeguards**  
-- Neural networks: early stopping, loss monitoring, normalization, and systematic evaluation to improve generalization and prevent overfitting.  
-- Time series models: stationarity and seasonality checks, systematic model selection, and residual diagnostics to ensure robustness and validity.
+- **Training & modeling safeguards**  
+  Neural networks: early stopping, loss monitoring, normalization, and systematic evaluation to improve generalization and prevent overfitting.  
+  Time series models: stationarity and seasonality checks, systematic model selection, and residual diagnostics to ensure robustness and validity.
 
-**Metrics & interpretability**  
-- **RMSE** to assess errors in real-world units (domain-level interpretability).  
-- **SMAPE** as the main reporting metric, also expressed as Accuracy = 100 − SMAPE for clear comparison and communication.
+- **Metrics & interpretability**  
+  **RMSE** to assess errors in real-world units (domain-level interpretability).  
+  **SMAPE** as the main reporting metric, also expressed as Accuracy = 100 − SMAPE for clear comparison and communication.
 
-**Transparent data policy**  
-- National datasets are public, enabling full end-to-end reproducibility.  
-- Regional datasets are restricted: raw series cannot be shared, only aggregated metrics and result figures are reported.  
+- **Transparent data policy**  
+  National datasets are public, enabling full end-to-end reproducibility.  
+  Regional datasets are restricted: raw series cannot be shared, only aggregated metrics and result figures are reported.  
 
 ## 📊 Real-World Impact  
 
