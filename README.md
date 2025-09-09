@@ -30,6 +30,10 @@ This system addresses the problem by combining 48 forecasting models with artifi
 - Achieved up to 99% forecasting accuracy (SMAPE).  
 - Delivered actionable insights to decision-makers, supporting strategic allocation on both national and regional scales.  
 
+**Simplicity with real-world impact**  
+- Delivered accurate forecasts using only the banknote demand series itself — without requiring additional macroeconomic or external variables.  
+- This simplicity makes the system easy to apply in practice: fast setup, directly usable in real-world planning without complex data integration, yet high accuracy in predicting future cash demand.
+
 **Longer-term banknote management planning**  
 - Produced 12-month forecasts with confidence intervals, helping decision-makers prepare for seasonal demand patterns in advance.  
 - Ongoing train/validation/test monitoring ensured reliable results, building confidence in forecasts used for cash management planning.  
@@ -38,9 +42,7 @@ This system addresses the problem by combining 48 forecasting models with artifi
 - Forecasts supported not only distribution planning (cash logistics) but also upstream needs such as banknote production, supply chain preparation, and long-term stock management.  
 - As circulation volume is a key driver of monetary liquidity, accurate demand forecasts provided critical input for broader monetary policy planning.
 
-**Simplicity with real-world impact**  
-- Delivered accurate forecasts using only the banknote demand series itself — without requiring additional macroeconomic or external variables.  
-- This makes the system easy to apply in practice: fast setup, no dependency on uncertain external forecasts, yet high accuracy in predicting future cash demand.  
+
 
 
 
