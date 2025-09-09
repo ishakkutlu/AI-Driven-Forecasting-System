@@ -8,7 +8,7 @@ This AI-driven forecasting system addresses the problem by combining 48 models (
 
 ## ✨ Key Features
 
-- **Implementation scope (48 models)**
+- **Implementation scope (48 models)**  
   Machine learning (LSTM, MLP/FNN, TLNN) and time series (SARIMA) models; applied to six denominations (₺5…₺200) at national & regional scales (4 × 6 × 2 = 48).
   Evaluated under a consistent, leakage-safe protocol with train/validation/test splits using past-only windows.
 
