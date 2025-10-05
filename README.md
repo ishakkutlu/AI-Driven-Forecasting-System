@@ -14,19 +14,21 @@ It achieved forecast accuracies up to **97%** (1−SMAPE), delivering strategic 
 
 - **Hybrid forecasting architecture (SARIMA + Neural Networks)**  
   Machine learning (LSTM, MLP/FNN, TLNN) and time series (SARIMA) models; applied to six denominations (₺5…₺200) at national scale, resulting in 24 trained and validated models (4 × 6).  
-  All models were evaluated under a consistent, leakage-safe protocol with train / validation / test splits using past-only windows.  
+  All models were evaluated under a consistent, leakage-safe protocol with **train / validation / test splits using past-only windows**.  
 
 - **Robustness over single-run performance**  
   Neural networks were trained with multiple random seeds, and results were reported using **median-seed performance** rather than isolated "best runs".  
   This ensured that **model selection favored stability and decision reliability**, not just peak accuracy.  
 
 - **Training & modeling safeguards**  
-  Neural networks: early stopping, loss monitoring to prevent overfitting, and normalization for stable training.  
+  Neural networks: early stopping, loss monitoring, learning-rate scheduling, regularization techniques to prevent overfitting, deterministic initializers for reproducibility, and normalization for stable training.  
   Time series: stationarity/seasonality checks, model selection, and residual diagnostics to ensure robustness and validity.  
+  Together, these mechanisms ensured **smooth convergence**, **generalization beyond the training period**, and **consistent behavior across multiple runs**.   
 
-- **Metrics & interpretability**  
+ - **Metrics & interpretability**  
   RMSE to assess errors in real-world units (domain-level interpretability).  
-  SMAPE as the main reporting metric, also expressed as Accuracy (100 − SMAPE) for clear comparison and communication.
+  SMAPE as the main reporting metric, also expressed as Accuracy (100 − SMAPE) for clear comparison and communication.  
+  Additional stability indicators such as NRMSE and seed-based CV/IQR included to reflect consistency rather than isolated peak scores.  
 
 ---
 
