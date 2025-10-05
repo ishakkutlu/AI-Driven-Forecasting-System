@@ -4,9 +4,9 @@
 
 Forecasting banknote demand is a critical challenge for central banks, since banknotes in circulation depend on many external and macroeconomic factors.  
 
-This AI-driven forecasting system addresses the problem by combining **48 models** (neural networks + classical time series). Originally developed as a high-impact prototype at the Central Bank of the Republic of Türkiye, it was trained and validated on **real-world national and regional data**.  
+This AI-driven system implements a dual-path forecasting architecture, combining SARIMA for structural interpretability with neural networks for adaptive learning. Originally developed as a high-impact prototype at the Central Bank of the Republic of Türkiye, it was trained and validated on **real-world national and regional datasets** and evaluated across **48 configurations** to ensure decision stability.  
 
-It achieved forecast accuracies ranging from **~65% to ~99%** (SMAPE), delivering strategic insights that supported monetary stability and efficient banknote management.  
+It achieved forecast accuracies up to **97%** (1−SMAPE), delivering strategic insights that supported monetary stability and efficient banknote management.  
 
 ---
 
