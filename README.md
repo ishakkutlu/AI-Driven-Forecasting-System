@@ -4,17 +4,21 @@
 
 Forecasting banknote demand is a critical challenge for central banks, since banknotes in circulation depend on many external and macroeconomic factors.  
 
-This AI-driven system implements a dual-path forecasting architecture, combining SARIMA for structural interpretability with neural networks for adaptive learning. Originally developed as a high-impact prototype at the Central Bank of the Republic of Türkiye, it was trained and validated on **real-world national and regional datasets** and evaluated across **48 configurations** to ensure decision stability.  
+This AI-driven system implements a dual-path forecasting architecture, combining time-series models for structural interpretability with neural networks for adaptive learning. Originally developed and validated as a prototype at the Central Bank of the Republic of Türkiye, it was applied to **48 models** across **real-world national and regional datasets**. Due to confidentiality constraints, only the **24 national-scale models** are shared in this public repository.
 
 It achieved forecast accuracies up to **97%** (1−SMAPE), delivering strategic insights that supported monetary stability and efficient banknote management.  
 
 ---
 
-## ✨ Key Features
+## ✨ Key Features  
 
-- **Implementation scope (48 models)**  
-  Machine learning (LSTM, MLP/FNN, TLNN) and time series (SARIMA) models; applied to six denominations (₺5…₺200) at national & regional scales (4 × 6 × 2 = 48).
-  All models evaluated under a consistent, leakage-safe protocol with train/validation/test splits using past-only windows.
+- **Hybrid forecasting architecture (SARIMA + Neural Networks)**  
+  Machine learning (LSTM, MLP/FNN, TLNN) and time series (SARIMA) models; applied to six denominations (₺5…₺200) at national scale, resulting in 24 trained and validated models (4 × 6).  
+  All models were evaluated under a consistent, leakage-safe protocol with train / validation / test splits using past-only windows.  
+
+- **Robustness over single-run performance**  
+  Neural networks were trained with multiple random seeds, and results were reported using **median-seed performance** rather than isolated "best runs".  
+  This ensured that **model selection favored stability and decision reliability**, not just peak accuracy.  
 
 - **Training & modeling safeguards**  
   Neural networks: early stopping, loss monitoring to prevent overfitting, and normalization for stable training.  
