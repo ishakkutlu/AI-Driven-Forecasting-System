@@ -1,4 +1,4 @@
-# AI-Driven Banknote Forecasting System
+# AI-Driven Banknote Demand Forecasting System
 
 ## 🔍 Overview  
 
