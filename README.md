@@ -37,7 +37,7 @@ It achieved median-based forecast accuracies up to **97%** (1−SMAPE), deliveri
 ## 📊 Real-World Impact  
 
 - **Actionable accuracy & decision support**  
-  Forecast accuracies up to 97% (SMAPE), delivering actionable insights for both national and regional allocation decisions.  
+  Median-based forecast accuracies up to 97% (SMAPE), delivering reliable insights for both national and regional allocation decisions.  
 
 - **Practical by design**  
   Forecasts relied only on the banknote demand series itself — no external variables required.  
@@ -47,9 +47,9 @@ It achieved median-based forecast accuracies up to **97%** (1−SMAPE), deliveri
   Produced 12-month forecasts with confidence intervals, helping decision-makers prepare for seasonal patterns.  
   Supported not only cash logistics but also upstream needs such as banknote production, supply chain preparation, and long-term stock management.  
 
-**Neural networks consistently outperformed SARIMA, ensuring higher reliability across denominations and scales.**  
+**SARIMA provided a stable statistical baseline, while neural networks added adaptive gains—especially in volatile denominations—offering more reliable signals for allocation decisions.**  
 
-![SMAPE Error](media/evaluate-accuracy.png)  
+![SMAPE Error](media/accuracies.PNG)  
 
 ---
 
