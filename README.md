@@ -43,7 +43,6 @@ It achieved forecast accuracies up to **97%** (1−SMAPE), delivering strategic 
 
 - **Supports both short-term response and long-term planning**  
   Produced 12-month forecasts with confidence intervals, helping decision-makers prepare for seasonal patterns.  
-  Ongoing train/validation/test monitoring ensured reliability and strengthened confidence in forecasts used for cash management planning.  
   Supported not only cash logistics but also upstream needs such as banknote production, supply chain preparation, and long-term stock management.  
 
 **Neural networks consistently outperformed SARIMA, ensuring higher reliability across denominations and scales.**  
