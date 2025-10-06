@@ -94,6 +94,7 @@ National-scale notebooks can be opened directly on Kaggle — no local setup req
  ---
 
 ## Official Publication
-The official thesis detailing this project is published on the CBRT website:
+
+🔗 Published as an official CBRT specialization project (in Turkish):
 
 [View the full publication (PDF, in Turkish)](https://www.tcmb.gov.tr/wps/wcm/connect/b6bafef0-4d5f-4077-9497-e35e2b38c272/Uzmanl%C4%B1k+Tezi+-+%C4%B0shak+Kutlu.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-b6bafef0-4d5f-4077-9497-e35e2b38c272-oMkQrtC)
