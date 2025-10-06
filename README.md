@@ -56,17 +56,17 @@ It achieved median-based forecast accuracies up to **97%** (1−SMAPE), deliveri
 ## 📂 Project Files & Notebooks  
 
 All notebooks are stored in the [`/notebooks`](./notebooks) folder.  
-They include **both source code and final outputs (forecasts, validation plots, diagnostics)** — no need to re-run to view results.  
+They include **both source code and final outputs (forecasts, validation plots, diagnostics)** — no need to re-run to view results. 
 
-- **Artificial Neural Networks (ANNs)**
-  Per-denomination notebooks include forecasts and training/validation loss plots.  
-  - National scale (₺5 … ₺200): 01–06_national_[denomination]_ann.ipynb  
-  - Regional scale (₺5 … ₺200): 07–12_regional_[denomination]_ann.ipynb  
+- **Artificial Neural Networks (MLP / TLNN / LSTM)**  
+  Full training, validation, loss monitoring and forecasting outputs are available in a single consolidated notebook:  
+  👉 **[Open Reproducible ANN Notebook](https://www.kaggle.com/code/shakkutlu/ai-driven-demand-forecasting-mlp-tlnn-lstm)**
 
-- **SARIMA (classical time series)**
-  Per-scale notebooks include forecasts for all denominations and residual diagnostics.
-  - 13_national_all_sarima.ipynb (all denominations, national scale)  
-  - 14_regional_all_sarima.ipynb (all denominations, regional scale)  
+- **SARIMA (classical time-series baseline)**  
+  Includes national-scale forecasts for all denominations, along with residual diagnostics and confidence interval projections:  
+  👉 **[Open Reproducible SARIMA Notebook](https://www.kaggle.com/code/shakkutlu/time-series-demand-forecasting-sarima)**
+
+> *The original prototype also included 24 regional-scale models trained under the same protocol, but these are not included in this public release due to confidentiality constraints.*
 
 ---
 
