@@ -53,17 +53,21 @@ It achieved median-based forecast accuracies up to **97%** (1−SMAPE), deliveri
 
 ---
 
-## 📂 Project Files & Notebooks  
+## 📂 Project Files & Reproduction Guide   
 
 All notebooks are stored in the [`/notebooks`](./notebooks) folder.  
 They include **both source code and final outputs (forecasts, validation plots, diagnostics)** — no need to re-run to view results. 
 
+### 🔗 Kaggle Notebooks 
+
+National-scale notebooks can be opened directly on Kaggle — no local setup required. They are fully reproducible with public datasets and run in Kaggle’s hosted Python environment.  
+
 - **Artificial Neural Networks (MLP / TLNN / LSTM)**  
-  Full training, validation, loss monitoring and forecasting outputs are available in a single consolidated notebook:  
+  End-to-end training pipeline is fully reproduced in a single consolidated notebook, including data preprocessing, scaling, model definition, seed-based training loops, validation monitoring and forecast generation:  
   👉 **[Open Reproducible ANN Notebook](https://www.kaggle.com/code/shakkutlu/ai-driven-demand-forecasting-mlp-tlnn-lstm)**
 
 - **SARIMA (classical time-series baseline)**  
-  Includes national-scale forecasts for all denominations, along with residual diagnostics and confidence interval projections:  
+  Includes full statistical modeling workflow — order selection, residual diagnostics and confidence interval projection — applied across all denominations at national scale:  
   👉 **[Open Reproducible SARIMA Notebook](https://www.kaggle.com/code/shakkutlu/time-series-demand-forecasting-sarima)**
 
 > *The original prototype also included 24 regional-scale models trained under the same protocol, but these are not included in this public release due to confidentiality constraints.*
@@ -75,28 +79,8 @@ They include **both source code and final outputs (forecasts, validation plots, 
 - **Language:** Python (tested with 3.7+)  
 - **Core libraries:** TensorFlow, Keras, Pandas, NumPy, Scikit-learn  
 - **Time series:** Statsmodels, pmdarima  
-- **Visualization:** Matplotlib  
+- **Visualization:** Matplotlib, seaborn    
 - **Environment:** Jupyter Notebook  
-
----
-
-## 📦 Reproduction Guide  
-
-All notebooks can be opened directly on Kaggle — no local setup required. They run in Kaggle’s hosted Python environment.
-
-Open the Kaggle notebooks (links provided below).  
-- National-level notebooks are fully reproducible with public datasets.
-- Regional-level notebooks are limited to aggregated outputs and metrics (raw data not included).
-
-### 🔗 Kaggle Notebooks  
-
-- **Artificial Neural Networks (per denomination)** 
-  - National scale (₺5 … ₺200): [200₺](link) · [100₺](link) · [50₺](link) · [20₺](link) · [10₺](link) · [5₺](link)  
-  - Regional scale (₺5 … ₺200): [200₺](link) · [100₺](link) · [50₺](link) · [20₺](link) · [10₺](link) · [5₺](link)  
-
-- **SARIMA (per scale)**  
-  - National scale: [all denominations](link)  
-  - Regional scale: [all denominations](link)  
 
 ---
 
@@ -107,11 +91,7 @@ Open the Kaggle notebooks (links provided below).
   - National-level datasets are public.  
   - Regional-level datasets are not shared.  
 
- 
-
-
-
-
+ ---
 
 ## Visual Results
 Below are selected visuals demonstrating the forecasting performance and evaluation results of the AI-based system across different models, denominations, and regions.
