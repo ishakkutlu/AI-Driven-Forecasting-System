@@ -27,27 +27,24 @@ It achieved forecast accuracies up to **97%** (1−SMAPE), delivering strategic 
 
  - **Metrics & interpretability**  
   RMSE to assess errors in real-world units (domain-level interpretability).  
-  SMAPE as the main reporting metric, also expressed as Accuracy (100 − SMAPE) for clear comparison and communication.  
+  SMAPE as the main reporting metric, also expressed as accuracy (100 − SMAPE) for clear comparison and communication.  
   Additional stability indicators such as NRMSE and seed-based CV/IQR included to reflect consistency rather than isolated peak scores.  
 
 ---
 
 ## 📊 Real-World Impact  
 
-- **High accuracy & decision support**  
-  Forecast accuracies ranged from ~65% to ~99% (SMAPE), delivering actionable insights for both national and regional allocation decisions.
+- **Actionable accuracy & decision support**  
+  Forecast accuracies up to 97% (SMAPE), delivering actionable insights for both national and regional allocation decisions.  
 
-- **Simplicity with real-world impact**  
+- **Practical by design**  
   Forecasts relied only on the banknote demand series itself — no external variables required.  
-  This made the system easy to set up and directly usable in practice, while still achieving high accuracy.
+  This made the system easy to set up and directly usable in practice, while still achieving high accuracy.  
 
-- **Longer-term planning**  
+- **Supports both short-term response and long-term planning**  
   Produced 12-month forecasts with confidence intervals, helping decision-makers prepare for seasonal patterns.  
-  Ongoing train/validation/test monitoring ensured reliability and strengthened confidence in forecasts used for cash management planning.
-
-- **Operational & policy relevance**  
+  Ongoing train/validation/test monitoring ensured reliability and strengthened confidence in forecasts used for cash management planning.  
   Supported not only cash logistics but also upstream needs such as banknote production, supply chain preparation, and long-term stock management.  
-  As circulation volume drives monetary liquidity, forecasts offered critical input for monetary policy.  
 
 **Neural networks consistently outperformed SARIMA, ensuring higher reliability across denominations and scales.**  
 
