@@ -49,7 +49,7 @@ It achieved median-based forecast accuracies up to **97%** (1−SMAPE), deliveri
 
 **Neural networks consistently outperformed SARIMA, ensuring higher reliability across denominations and scales.**  
 
-![SMAPE Error](media/accuracies.png)  
+![SMAPE Error](media/accuracies.PNG)  
 
 ---
 
